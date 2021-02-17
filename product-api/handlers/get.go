@@ -2,10 +2,11 @@ package handlers
 
 import (
 	"context"
-	"example/data"
 	"net/http"
 
-	protos "github.com/currency/protos"
+	"github.com/Planutim/microserviceblabla/product-api/data"
+
+	protos "github.com/Planutim/microserviceblabla/currency"
 )
 
 // swagger:route GET /products products listProducts

@@ -1,13 +1,14 @@
 package handlers
 
 import (
-	"example/data"
 	"fmt"
 	"log"
 	"net/http"
 	"strconv"
 
-	protos "github.com/currency/protos"
+	"github.com/Planutim/microserviceblabla/product-api/data"
+
+	protos "github.com/Planutim/microserviceblabla/product-api/currency"
 	"github.com/gorilla/mux"
 )
 

@@ -3,17 +3,18 @@ package main
 import (
 	// "example/handlers"
 
-	"example/data"
-	"example/handlers"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"time"
 
+	"github.com/Planutim/microserviceblabla/product-api/data"
+	"github.com/Planutim/microserviceblabla/product-api/handlers"
+
 	"context"
 
-	protos "github.com/currency/protos"
+	protos "github.com/Planutim/microserviceblabla/product-api/currency"
 	"github.com/go-openapi/runtime/middleware"
 	gohandlers "github.com/gorilla/handlers"
 	"github.com/gorilla/mux"

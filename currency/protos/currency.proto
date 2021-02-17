@@ -1,8 +1,6 @@
 syntax = "proto3";
 
-package protos;
-
-option go_package = "currency/protos";
+package currency;
 
 service Currency {
     rpc GetRate(RateRequest) returns (RateResponse);

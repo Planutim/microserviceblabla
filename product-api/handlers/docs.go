@@ -15,7 +15,7 @@
 // swagger:meta
 package handlers
 
-import "example/data"
+import "github.com/Planutim/microserviceblabla/product-api/data"
 
 //
 // NOTE: types defined here are purely for documentation purposes

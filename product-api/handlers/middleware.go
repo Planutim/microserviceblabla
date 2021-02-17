@@ -2,8 +2,9 @@ package handlers
 
 import (
 	"context"
-	"example/data"
 	"net/http"
+
+	"github.com/Planutim/microserviceblabla/product-api/data"
 )
 
 // MiddlewareValidateProduct validates the product in the request and calls next if ok

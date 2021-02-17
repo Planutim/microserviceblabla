@@ -1,8 +1,9 @@
 package handlers
 
 import (
-	"example/data"
 	"net/http"
+
+	"github.com/Planutim/microserviceblabla/product-api/data"
 )
 
 // swagger:route POST / products productsRequest

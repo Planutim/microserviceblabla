@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"example/data"
 	"net/http"
 	"strconv"
+
+	"github.com/Planutim/microserviceblabla/product-api/data"
 
 	"github.com/gorilla/mux"
 )

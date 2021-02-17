@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"example/client"
-	"example/client/products"
+	"github.com/Planutim/microserviceblabla/product-api/client"
+	"github.com/Planutim/microserviceblabla/product-api/client/products"
 )
 
 func TestOurClient(t *testing.T) {

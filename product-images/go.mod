@@ -1,4 +1,4 @@
-module example
+module github.com/Planutim/microserviceblabla/product-images
 
 go 1.15
 
