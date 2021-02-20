@@ -14,7 +14,7 @@ import (
 
 	"context"
 
-	protos "github.com/Planutim/microserviceblabla/product-api/currency"
+	protos "github.com/Planutim/microserviceblabla/product-api/currency/"
 	"github.com/go-openapi/runtime/middleware"
 	gohandlers "github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
